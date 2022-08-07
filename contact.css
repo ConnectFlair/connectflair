@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Josefin Sans',Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+header {
+    background-color: #000016;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+}
+.logo1 {
+    width: 100px;
+    cursor: pointer;
+    
+    
+    justify-content: space-between;
+    
+
+  
+}
+.social-icons3 a {
+    color: #fff;
+    font-size: 1.8em;
+    padding-right: 10px;
+}
+.footer {
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.footer-title span {
+    color: #1faee3;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+
+
+.navigation a{
+    color: #1faee3;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #b32373;
+}
+
+section {
+    padding: 100px 100px;
+}
+
+
+
+
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background:#000016;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	
+}
+form h3{
+	color: #555;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+form input, form textarea{
+	border: 0;
+	margin: 10px 0;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;
+	font-size: 16px;
+
+}
+
+form button{
+	padding: 15px;
+	background: #ff5361;
+	color: #fff;
+	font-size: 18px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	width: 150px;
+	margin: 20px auto 0;
+	border-radius: 30px;
+
+}
+input , textarea {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 6px 0px;
+
+}
+
+
